@@ -6,13 +6,13 @@
 	},
 	"customizations": {
 		"vscode": {
-		  "extensions": ["ampersandtarski.language-ampersand"]
+		  "extensions": ["ampersandtarski.language-ampersand"],
+		  "postStartCommand":"nohup bash -c 'ampersand daemon'"
 		},
 		"codespaces": {
 			"openFiles": [
 				"Project/Example.adl"
 			]
 		},
-		"postStartCommand":"nohup bash -c 'ampersand daemon'"
 	}
 }

@@ -13,6 +13,6 @@
 				"Project/Example.adl"
 			]
 		},
-		"postAttachCommand":"ampersand: Start checker"
+		"postAttachCommand":"ampersand daemon"
 	}
 }

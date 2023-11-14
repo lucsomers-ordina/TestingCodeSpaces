@@ -13,6 +13,6 @@
 				"Project/Example.adl"
 			]
 		},
-		"postStartCommand":"nohup bash -c 'ampersand daemon &'"
+		"postStartCommand":"nohup bash -c 'ampersand daemon'"
 	}
 }

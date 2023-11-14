@@ -7,6 +7,11 @@
 	"customizations": {
 		"vscode": {
 		  "extensions": ["ampersandtarski.language-ampersand"]
+		},
+		"codespaces": {
+			"openFiles": [
+				"Project/Example.adl"
+			]
 		}
 	}
 }

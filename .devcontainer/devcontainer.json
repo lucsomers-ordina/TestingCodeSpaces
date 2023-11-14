@@ -1,0 +1,13 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Untitled ampersand project",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+		  "extensions": ["ampersandtarski.language-ampersand"]
+		}
+	},
+  "remoteUser": "node"
+}

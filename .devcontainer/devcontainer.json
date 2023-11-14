@@ -8,6 +8,5 @@
 		"vscode": {
 		  "extensions": ["ampersandtarski.language-ampersand"]
 		}
-	},
-  "remoteUser": "node"
+	}
 }

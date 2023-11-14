@@ -12,6 +12,7 @@
 			"openFiles": [
 				"Project/Example.adl"
 			]
-		}
+		},
+		"postStartCommand":"ampersand: Start checker"
 	}
 }

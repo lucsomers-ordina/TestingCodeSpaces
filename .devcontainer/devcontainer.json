@@ -4,15 +4,15 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
+	"postAttachCommand":"ampersand daemon",
 	"customizations": {
 		"vscode": {
-		  "extensions": ["ampersandtarski.language-ampersand"],
-		  "postStartCommand":"nohup bash -c 'ampersand daemon'"
+		  "extensions": ["ampersandtarski.language-ampersand"]
 		},
 		"codespaces": {
 			"openFiles": [
 				"Project/Example.adl"
 			]
-		},
+		}
 	}
 }
